@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\MVP\wpf-notepad\Notepad\obj\Debug\
+E:\MVP\wpf-notepad\Notepad\obj\Release\
 Notepad
 none
 false
-DEBUG;TRACE
+TRACE
 E:\MVP\wpf-notepad\Notepad\App.xaml
 1219584333
 
-7-1352193176
+51579654133
 13-1310406943
 MainWindow.xaml;
 
-False
+True
 

@@ -39,8 +39,8 @@ namespace Notepad
 
             newTab.Content = grid;
 
-            tabControl.Items.Add(newTab);
-            tabControl.SelectedItem = newTab;
+            /*tabControl.Items.Add(newTab);
+            tabControl.SelectedItem = newTab;*/
         }
     }
 }

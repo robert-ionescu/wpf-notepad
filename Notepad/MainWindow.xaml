@@ -25,9 +25,7 @@
             </MenuItem>
             
         </Menu>
-        <TabControl Name="tabControl" Width="800">
-            <TabItem Header="New File"/>
-        </TabControl>
+        
         <StackPanel/>
         <Grid>
             
