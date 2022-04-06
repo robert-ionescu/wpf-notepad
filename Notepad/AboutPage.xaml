@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPFDynamicTab.AboutPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFDynamicTab"
+        mc:Ignorable="d"
+        Title="AboutPage" Height="350" Width="400">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,102,0,0" TextWrapping="Wrap" Text="Robert Ionescu" VerticalAlignment="Top" Height="25" Width="120" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,132,0,0" TextWrapping="Wrap" Text="Grupa 302" VerticalAlignment="Top" Height="30" Width="90" FontSize="18" RenderTransformOrigin="0.5,1.635"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="37" Width="270" FontSize="18">
+             <Hyperlink NavigateUri="mailto:robert.ionescu@student.unitbv.ro" RequestNavigate="Hyperlink_RequestNavigate">
+        robert.ionescu@student.unitbv.ro
+    </Hyperlink>
+        </TextBlock>
+
+    </Grid>
+</Window>
